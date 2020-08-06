@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppGameScreen Component renders the UI as expected 1`] = `
+<div
+  className="game_screen_app"
+>
+  <header
+    className="round_header"
+  >
+    <h1>
+      Round: #
+    </h1>
+  </header>
+  <div
+    className="gameboard_container"
+  >
+    <div
+      className="top_row_pads"
+    >
+      <div
+        className="game_pad"
+        style={
+          Object {
+            "backgroundColor": "green",
+          }
+        }
+      />
+      <div
+        className="game_pad"
+        style={
+          Object {
+            "backgroundColor": "red",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bottom_row_pads"
+    >
+      <div
+        className="game_pad"
+        style={
+          Object {
+            "backgroundColor": "yellow",
+          }
+        }
+      />
+      <div
+        className="game_pad"
+        style={
+          Object {
+            "backgroundColor": "blue",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

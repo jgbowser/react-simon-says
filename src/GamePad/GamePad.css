@@ -1,0 +1,7 @@
+.game_pad {
+  flex: 1;
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+  border-radius: 10px;
+}

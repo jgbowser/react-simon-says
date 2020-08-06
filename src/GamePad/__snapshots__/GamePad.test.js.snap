@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GamePad Component renders a green background when passed green as a prop 1`] = `
+<div
+  className="game_pad"
+  style={
+    Object {
+      "backgroundColor": "green",
+    }
+  }
+/>
+`;
