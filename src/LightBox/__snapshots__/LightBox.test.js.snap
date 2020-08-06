@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LightBox Component should render as green when green is passed in as a prop 1`] = `
+<div
+  className="light_box"
+  style={
+    Object {
+      "backgroundColor": "green",
+    }
+  }
+/>
+`;
+
+exports[`LightBox Component should render as white without any props passed in 1`] = `
+<div
+  className="light_box"
+  style={
+    Object {
+      "backgroundColor": "white",
+    }
+  }
+/>
+`;

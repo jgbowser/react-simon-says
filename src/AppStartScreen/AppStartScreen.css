@@ -1,0 +1,19 @@
+
+.light_box__conatiner {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
+  margin: 10px auto;
+  padding: 0 auto;
+}
+
+.top_row,
+.bottom_row {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: 0 auto;
+}

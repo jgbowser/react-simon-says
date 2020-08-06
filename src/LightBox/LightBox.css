@@ -1,0 +1,7 @@
+.light_box {
+  display: inline-block;
+  width: 125px;
+  height: 125px;
+  margin: 10px;
+  border-radius: 10px;
+}
