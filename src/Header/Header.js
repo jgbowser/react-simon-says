@@ -1,5 +1,5 @@
 import React from 'react'
-import './StartHeader.css'
+import './Header.css'
 
 export default class StartHeader extends React.Component {
   render() {

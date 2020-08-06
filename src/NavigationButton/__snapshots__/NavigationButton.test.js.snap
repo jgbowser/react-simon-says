@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationButton Component should display the corresponding string that is passed as a prop 1`] = `
+<div
+  className="btn_container"
+>
+  <a
+    className="link_button"
+    href="/play"
+    onClick={[Function]}
+  >
+    Start Game
+  </a>
+</div>
+`;

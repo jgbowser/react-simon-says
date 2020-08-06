@@ -1,0 +1,14 @@
+.btn_container {
+  width: fit-content;
+  margin: 20px auto;
+  background-color: green;
+  padding: 25px 50px;
+  border-radius: 10px;
+}
+
+.link_button {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 2px;
+}

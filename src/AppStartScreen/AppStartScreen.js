@@ -1,5 +1,5 @@
 import React from 'react'
-import StartHeader from '../StartHeader/StartHeader'
+import Header from '../Header/Header'
 import Instructions from '../Instructions/Instructions'
 import LightBox from '../LightBox/LightBox'
 import NavigationButton from '../NavigationButton/NavigationButton'
@@ -9,7 +9,7 @@ export default class AppStartScreen extends React.Component {
   render() {
     return (
       <div className="start_screen_app">
-        <StartHeader />
+        <Header />
         <Instructions />
         <div className="light_box__container">
           <div className="top_row">
@@ -20,8 +20,8 @@ export default class AppStartScreen extends React.Component {
             <LightBox color="yellow" />
             <LightBox color="blue" />
           </div>
-          <NavigationButton message="New Game" />
         </div>
+        <NavigationButton message="New Game" />
       </div>
     )
   }

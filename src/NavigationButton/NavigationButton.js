@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './NavigationButton.css'
 
 export default class NavigationButton extends React.Component {
   render() {
