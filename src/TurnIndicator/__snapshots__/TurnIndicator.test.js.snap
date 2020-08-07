@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TurnIndicator Component renders Simons turn... when passed COMPUTER as a prop 1`] = `
+<div
+  className="turn_indicator"
+>
+  <p>
+    Simon's turn. Pay attention!
+  </p>
+</div>
+`;
+
+exports[`TurnIndicator Component renders Your turn. Good Luck! when passed PLAYER as a prop 1`] = `
+<div
+  className="turn_indicator"
+>
+  <p>
+    Your turn. Good luck!
+  </p>
+</div>
+`;
