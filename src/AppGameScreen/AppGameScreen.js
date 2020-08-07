@@ -9,6 +9,7 @@ export default class AppGameScreen extends React.Component {
       <div className="game_screen_app">
         <RoundHeader />
         <GameBoard />
+        {/* conditionally rendered fail screen with link to end screen when player loses */}
       </div>
     )
   }
