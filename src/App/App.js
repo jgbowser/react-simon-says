@@ -19,8 +19,10 @@ class App extends React.Component {
   }
 
   handlePadClick = (value) => {
+    //most likely will be calling playerTurn() here to handle logic
     this.setState({playerInput: [...this.state.playerInput, value]})
   }
+
   render() {
     const value ={
       GAME_OVER: this.state.GAME_OVER,
