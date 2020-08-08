@@ -24,6 +24,12 @@ function computerTurn(sequence) {
 }
 
 function playerTurn() {
-  return 'hello world'
+  //takes in player input from onClick
+  //compares it to the sequence array : <ClickedButtonValue> === this.state.sequence[this.state.playerInput.length]
+  //if input matches sequence array setState({playerInput: [...playerInput, <clickedButtonValue>]})
+  //if !== setState({GAME_OVER: true})
+  //compare the lengths of the 2 arrays if === then setState(turn: COMPUTER)
+  //else return nothing so the function can end and be called again on next click
+  //?? call gameLoop which will execute computerTurn or player turn based on current state
 }
 
