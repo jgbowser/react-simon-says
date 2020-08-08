@@ -3,6 +3,7 @@
 exports[`GamePad Component renders a green background when passed green as a prop 1`] = `
 <div
   className="game_pad"
+  onClick={[Function]}
   style={
     Object {
       "backgroundColor": "green",

@@ -7,12 +7,12 @@ export default class GameBoard extends React.Component {
     return (
       <div className="gameboard_container">
         <div className="top_row_pads">
-          <GamePad color="green" />
-          <GamePad color="red" />
+          <GamePad color="green" value='1'/>
+          <GamePad color="red" value='2' />
         </div>
         <div className="bottom_row_pads">
-          <GamePad color="yellow" />
-          <GamePad color="blue" />
+          <GamePad color="yellow" value='3'/>
+          <GamePad color="blue" value='4' />
         </div>
       </div>
     )

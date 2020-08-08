@@ -19,6 +19,8 @@ exports[`AppGameScreen Component renders the UI as expected 1`] = `
     >
       <div
         className="game_pad"
+        id="1"
+        onClick={[Function]}
         style={
           Object {
             "backgroundColor": "green",
@@ -27,6 +29,8 @@ exports[`AppGameScreen Component renders the UI as expected 1`] = `
       />
       <div
         className="game_pad"
+        id="2"
+        onClick={[Function]}
         style={
           Object {
             "backgroundColor": "red",
@@ -39,6 +43,8 @@ exports[`AppGameScreen Component renders the UI as expected 1`] = `
     >
       <div
         className="game_pad"
+        id="3"
+        onClick={[Function]}
         style={
           Object {
             "backgroundColor": "yellow",
@@ -47,6 +53,8 @@ exports[`AppGameScreen Component renders the UI as expected 1`] = `
       />
       <div
         className="game_pad"
+        id="4"
+        onClick={[Function]}
         style={
           Object {
             "backgroundColor": "blue",
@@ -54,6 +62,13 @@ exports[`AppGameScreen Component renders the UI as expected 1`] = `
         }
       />
     </div>
+  </div>
+  <div
+    className="turn_indicator"
+  >
+    <p>
+      Simon's turn. Pay attention!
+    </p>
   </div>
 </div>
 `;
